@@ -1,1 +1,3 @@
-aptitude install libdbd-mysql-perl mysql-server-5.1
+* aptitude install libdbd-mysql-perl mysql-server-5.1
+* jdu spat
+
