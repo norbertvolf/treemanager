@@ -1,0 +1,1 @@
+aptitude install libdbd-mysql-perl mysql-server-5.1
