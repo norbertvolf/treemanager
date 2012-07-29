@@ -1,0 +1,3 @@
+<div id="message-block" class="message display-no no-print">
+	<p><span id="message-text"></span> <a href="#" name="message" class="close-message" id="message-btn-close"><%= __('Close message') %></a></p>
+</div>

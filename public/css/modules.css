@@ -1,0 +1,122 @@
+/* Module styles */
+
+.module-name-default a.link {
+  background: url(../images/modules-ico/default.png) no-repeat 20px 50%;
+}
+
+.module-name-directive a.link {
+  background: url(../images/modules-ico/directives.png) no-repeat 20px 50%;
+}
+
+.module-name-telephone-directory a.link {
+  background: url(../images/modules-ico/telephone-directory.png) no-repeat 20px 50%;
+}
+
+.module-name-orders-b2b a.link {
+  background: url(../images/modules-ico/orders-b2b.png) no-repeat 20px 50%;
+}
+
+.module-name-notification a.link {
+  background: url(../images/modules-ico/notification.png) no-repeat 20px 50%;
+}
+
+.module-name-articles a.link {
+  background: url(../images/modules-ico/articles.png) no-repeat 20px 50%;
+}
+
+.module-name-wishlist a.link {
+  background: url(../images/modules-ico/wishlist.png) no-repeat 20px 50%;
+}
+
+.module-name-labels a.link {
+  background: url(../images/modules-ico/labels.png) no-repeat 20px 50%;
+}
+
+.module-name-hierarchy a.link {
+  background: url(../images/modules-ico/hierarchy.png) no-repeat 20px 50%;
+}
+
+.module-name-tree-definition a.link {
+  background: url(../images/modules-ico/tree-definition.png) no-repeat 20px 50%;
+}
+
+.module-name-customer-complaints a.link {
+  background: url(../images/modules-ico/customer-complaints.png) no-repeat 20px 50%;
+}
+
+.module-name-supplier-complaints a.link {
+  background: url(../images/modules-ico/supplier-complaints.png) no-repeat 20px 50%;
+}
+
+.module-name-questionnaires a.link {
+  background: url(../images/modules-ico/questionnaires.png) no-repeat 20px 50%;
+}
+
+.module-name-complaint-report a.link {
+  background: url(../images/modules-ico/complaint-report.png) no-repeat 20px 50%;
+}
+ 
+.module-name-store-box a.link {
+  background: url(../images/modules-ico/store-box.png) no-repeat 20px 50%;
+}
+
+.module-name-order-list a.link {
+  background: url(../images/modules-ico/order-list.png) no-repeat 20px 50%;
+}
+
+.module-name-customers a.link {
+  background: url(../images/modules-ico/customers.png) no-repeat 20px 50%;
+}
+
+.module-name-points a.link {
+  background: url(../images/modules-ico/points.png) no-repeat 20px 50%;
+}
+
+.module-name-sales a.link {
+  background: url(../images/modules-ico/sales.png) no-repeat 20px 50%;
+}
+
+.module-name-users a.link {
+  background: url(../images/modules-ico/users.png) no-repeat 20px 50%;
+}
+
+.module-name-wpc a.link {
+  background: url(../images/modules-ico/wpc.png) no-repeat 20px 50%;
+}
+
+.module-name-networks a.link {
+  background: url(../images/modules-ico/networks.png) no-repeat 20px 50%;
+}
+
+.module-name-reviews a.link {
+  background: url(../images/modules-ico/reviews.png) no-repeat 20px 50%;
+}
+
+.module-name-devices a.link {
+  background: url(../images/modules-ico/devices.png) no-repeat 20px 50%;
+}
+
+.module-name-staff a.link {
+  background: url(../images/modules-ico/staff.png) no-repeat 20px 50%;
+}
+
+.module-name-stores a.link {
+  background: url(../images/modules-ico/stores.png) no-repeat 20px 50%;
+}
+
+.module-name-store-estimates a.link {
+  background: url(../images/modules-ico/store-estimates.png) no-repeat 20px 50%;
+}
+
+.module-name-bugzilla a.link {
+  background: url(../images/modules-ico/bugzilla.png) no-repeat 20px 50%;
+}
+
+.module-name-reservation a.link {
+  background: url(../images/modules-ico/reservation.png) no-repeat 20px 50%;
+}
+
+/* CMS */
+.module-name-editorial a.link {
+  background: url(../images/modules-ico/editorial.png) no-repeat 20px 50%;
+}

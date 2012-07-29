@@ -1,0 +1,81 @@
+% layout 'default',  
+%	title => __('Hierarchy'), 
+%	body_class => 'content-list catalog-list', 
+%	content_class => 'content-wrapper two-col-lf two-col-lf-250', 
+%	scripts => [
+%		"/js/jquery.jstree.js" => "", 
+%		"/js/TreeManager/Tree.js" => "var tree = new TreeManager.Tree();",
+%	];
+				
+<h1><%= __("Hierarchy") %></h1>
+
+%= include 'partial/message'
+
+<div id="treemanager-container">
+%#{{{ left
+<div class="left">
+	<div class="wrapper"> 
+		<div class="block">
+			<div class="header"><h3><%= __('New node') %></h3></div>
+			<div class="content-block">
+				<div class="input-select">  
+					<label for="pid"><%= __('PID') %></label>
+					<span class="input-text"><input id="pid" type="text" name="pid"></span>
+					
+				</div>
+				<div class="btn-small btn-wrapper"> <a class="btn-grey btn" href=""><%= __('Add') %></a></div>
+			</div>
+		</div>
+	</div> 
+</div>
+%#}}}
+%#{{{ right
+<div class="right">
+	<h2 class="workbook-item-article-list-header">PID<span class="h2-desc">(ID: 123456)</span></h2>
+	%#{{{ list
+	<div id="table-list" class="workbook-item-article-list-table-list">
+		<div class="table-rows border">
+			<table class="list">
+				<thead class="caramel-list-header">
+					<tr>
+						<td><%= __('Depth') %></td>
+						<td colspan="3"><%= __('Tree nodes') %></td>
+					</tr>
+				</thead>
+				<tbody class="treemanager-tree-body">
+					<tr>
+						<td>1.</td>
+						<td colspan="3">NONE&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;1</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td colspan="2">1&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;2</td>
+						<td>1&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;3</td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>2&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;4</td>
+						<td>2&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;5</td>
+						<td>3&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;6</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="list">
+				<thead class="caramel-list-header">
+					<tr>
+						<td><%= __('Depth') %></td>
+						<td colspan="3"><%= __('Tree nodes') %></td>
+					</tr>
+					<tr class="display-no treemanager-tree-row-template">
+						<td class="display-no treemanager-tree-column-template"></td>
+					</tr>
+				</thead>
+				<tbody class="treemanager-tree-body">
+				</tbody>
+			</table>
+		</div>
+	</div>
+	%#}}} list
+%#}}} right
+</div>

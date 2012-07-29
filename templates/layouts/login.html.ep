@@ -1,0 +1,29 @@
+<!doctype html> 
+<html>
+	<head> 
+		<title><%= $title %></title> 
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+		<meta name="robots" content="INDEX,FOLLOW" /> 
+		<meta name="description" content="" /> 
+		<meta name="keywords" content="" /> 
+		<meta name="author" content="Tomas Russek, Norbert Volf" /> 
+		<link rel="stylesheet" type="text/css"  href="/css/main.css" media="screen, projection, tv" /> 
+		<script src="/js/jquery-1.7.1.min.js"></script> 
+		<%= content_for 'header' %>
+	</head> 
+	<body class="login">
+		<div id="page">
+			<div id="header">
+				<div id="logo"><a href="#"><img src="/images/logo.png" alt="Logo Caramel" /></a></div>
+				<h1><%= $title %></h1>
+			</div>
+
+			<div id="content">
+				<div class="content-wrapper"><%= content %></div> 
+			</div>
+
+			<%= include 'partial/default/footer' %>
+		</div> <%# page %>
+		<%= content_for 'script' %>
+	</body>
+</html>

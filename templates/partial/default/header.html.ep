@@ -1,0 +1,23 @@
+			<div id="header">
+				<div id="main-menu">
+					<ul class="main-menu-first-level">
+						<li class="structure active">
+							<a href="/tree"><%= __('Hierarchy') %></a>
+						</li>
+					</ul>
+				</div>
+				<div class="caramel-header-block-loading message display-no" style="letter-spacing:5px;padding:3px 30px 3px 30px;font-size:large;color:black;margin:5px 5px 5px 60px;height: 20px;float:left;">
+					<%= __('Loading') %>
+				</div>
+				<div id="secondary-menu">
+					<ul class="secondary-menu-first-level">
+						<li class="to-popup"><a class="user icon-text first-level active-popup-submenu" href="#"><%= user->username; %></a>
+							<div class="popup-submenu display-no">
+								<ul class="user">
+									<li><a class="link with-ico logout" href="/logout"><%= __('Logout') %></a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><%# header %>

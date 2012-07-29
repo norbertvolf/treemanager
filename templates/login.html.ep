@@ -1,0 +1,36 @@
+% layout 'login',  title => __('Login');
+<div class="message" id="systemerror" style="display:none;"><p><%= __('There is an internal error on server side.') %></p></div>
+<div id="login-form">
+	<div class="login-form-wrapper" >
+		<form method="POST" id="loginform">
+			<div class="item">
+				<div class="label"><label for="username"><%= __('Username') %></label></div>
+				<div class="input-text"><input id="username" type="text" name="username" value=""/></div>
+			</div>
+			<div class="item">
+				<div class="label"><label for="password"><%= __('Password') %></label></div>
+				<div class="input-text"><input id="password" type="password" name="password" /></div>
+			</div>
+			<div class="item">
+				<div class="btn-submit-big"><input id="btnsubmit" class="btn-blue" type="button" value="<%= __('Login') %>" /></div>
+			</div>
+		</form>
+	</div>
+</div>  
+
+
+
+
+<% content_for script => begin %>
+<script>
+	$(document).ready(function () {
+		$('#username').focus();
+		$('#btnsubmit').click(function( ev ) { validate();});
+	});
+
+	function validate() {
+		window.location.href = '<%= config->{index} %>';
+		return(true);
+	}
+</script>
+<% end %>

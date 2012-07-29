@@ -1,0 +1,35 @@
+% layout 'login',  title => __('Signed out');
+% content_for script => begin
+%= stylesheet begin
+      a img { border: 0 }
+      #noraptor {
+        right: 0%;
+        position: fixed;
+        top: 60%;
+      }
+      #notfound {
+        height: 62px;
+	font-weight: bold; 
+	font-size: 18pt; 
+	line-height: 1.5; 
+	font-family: Arial, sans;
+        left: 50%;
+        margin-left: -153px;
+        margin-top: -31px;
+        position:absolute;
+        top: 50%;
+        width: 306px;
+      }
+% end
+<script type="text/javascript">
+$(document).ready(function () {
+	setTimeout( function () { window.location = "/login" }
+	, 2000);
+});
+</script>
+% end
+
+%= link_to url_for->base => begin
+	%= image '/images/mojolicious-goraptor.png', alt => 'Bye!', id => 'noraptor'
+% end
+<div id="notfound"><%= __('Signed out') %></div>

@@ -1,0 +1,1664 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Caramel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-27 12:35+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jiří Gajdušek <jiri.gajdusek@bata.eu>\n"
+"Language-Team:  <helpdesk@bata.eu>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/caramel/templates\n"
+"X-Poedit-SearchPath-1: /var/www/caramel/lib\n"
+"X-Poedit-SearchPath-2: /var/www/caramel/www/js/Caramel\n"
+
+#: /var/www/caramel/lib/Caramel.pm:142
+#, fuzzy
+msgid "route_catalog"
+msgstr "Katalog"
+
+#: /var/www/caramel/lib/Caramel.pm:153
+msgid "route_article"
+msgstr ""
+
+#: /var/www/caramel/lib/Caramel/Schema.pm:19
+msgid "Not send valid list of favorite links."
+msgstr "Nebyl poslán platný seznam oblíbených odkazů"
+
+#: /var/www/caramel/lib/Caramel/Comment.pm:56
+msgid "Your comment was NOT saved"
+msgstr "Váš komentář nebyl uložen"
+
+#: /var/www/caramel/lib/Caramel/Comment.pm:80
+msgid "Comment has been saved successfully"
+msgstr "Komentář byl úspěšně uložen"
+
+#: /var/www/caramel/lib/Caramel/Home.pm:109
+msgid "Password has been send to your mobile phone."
+msgstr "Heslo bylo odesláno na mobilní telefon."
+
+#: /var/www/caramel/lib/Caramel/Home.pm:111
+msgid "There is no possibility to send password. Phone number not defined."
+msgstr "Nelze odeslat heslo. Telefonní číslo není definováno."
+
+#: /var/www/caramel/lib/Caramel/Home.pm:113
+msgid "There is no possibility to send password. User not defined."
+msgstr "Nelze odeslat heslo. Uživatel není definován."
+
+#: /var/www/caramel/lib/Caramel/Home.pm:117
+msgid "Number of lost sms has exhausted. Try to ask for new password at"
+msgstr "Počet SMS pro odeslání nového hesla byl vyčerpán. Zkuste požádat o nové heslo v"
+
+#: /var/www/caramel/lib/Caramel/Cms.pm:37
+msgid "Editorial data has saved successfully."
+msgstr "Data v editoriálu byla úspěšně uložena."
+
+#: /var/www/caramel/lib/Caramel/Cms.pm:42
+msgid "Editoral data has not been saved."
+msgstr "Data v editoriálu nebyla uložena."
+
+#: /var/www/caramel/lib/Caramel/Cms.pm:53
+msgid "Editorial data has removed successfully."
+msgstr "Data v editoriálu byla úspěšně odstraněna."
+
+#: /var/www/caramel/lib/Caramel/Cms.pm:55
+msgid "Editorial data has not been removed."
+msgstr "Data v editoriálu nebyla odstraněna."
+
+#: /var/www/caramel/lib/Caramel/Workbook/Item.pm:47
+#: /var/www/caramel/lib/Caramel/Workbook/Item/Article.pm:49
+#, fuzzy
+msgid "Article order in node has been saved succesfully."
+msgstr "Pořadí bannerů bylo úspěšně uloženo."
+
+#: /var/www/caramel/lib/Caramel/Workbook/Item/Article.pm:29
+#, fuzzy
+msgid "Bad input parameters. Article order in node has not been saved."
+msgstr "Špatné vstupní parametry. Pořadí bannerů nebude uloženo."
+
+#: /var/www/caramel/lib/Caramel/Cms/Banner.pm:68
+msgid "Bad input parameters. Banner order has not been saved."
+msgstr "Špatné vstupní parametry. Pořadí bannerů nebude uloženo."
+
+#: /var/www/caramel/lib/Caramel/Cms/Banner.pm:80
+msgid "Banner order has been saved succesfully."
+msgstr "Pořadí bannerů bylo úspěšně uloženo."
+
+#: /var/www/caramel/lib/Caramel/Catalog/Import.pm:126
+msgid "Synchronization is done."
+msgstr "Synchronizace byla dokončena"
+
+#: /var/www/caramel/lib/Caramel/Catalog/Import.pm:134
+msgid "Synchronization is busy. Synchronization request has been stopped."
+msgstr "Synchronizace je zaneprázdněna. Požadavek na synchronizaci bude zastaven."
+
+#: /var/www/caramel/lib/Schema/User.pm:353
+msgid "Storebox"
+msgstr "Bata Home na prodejně"
+
+#: /var/www/caramel/lib/Schema/User.pm:354
+msgid "Orders"
+msgstr "Objednávky"
+
+#: /var/www/caramel/lib/Schema/User.pm:355
+msgid "Articles"
+msgstr "Artikly"
+
+#: /var/www/caramel/lib/Schema/User.pm:356
+msgid "Labels"
+msgstr "Etikety"
+
+#: /var/www/caramel/lib/Schema/User.pm:357
+msgid "WPC"
+msgstr "WPC"
+
+#: /var/www/caramel/lib/Cms/Banner.pm:31
+msgid "Invalid Banner type field."
+msgstr "Neplatný typ banneru."
+
+#: /var/www/caramel/lib/Cms/Banner.pm:37
+msgid "Invalid Number of tabs field."
+msgstr "Neplatný počet tabů."
+
+#: /var/www/caramel/lib/Cms/Banner.pm:43
+msgid "Invalid Valid from field."
+msgstr "Neplatný údaj \"Platné od\""
+
+#: /var/www/caramel/lib/Cms/Banner.pm:49
+msgid "Invalid Valid to field."
+msgstr "Neplatný údaj \"Platné do\""
+
+#: /var/www/caramel/lib/Cms/Banner.pm:70
+msgid "Invalid Territory field."
+msgstr "Neplatné territorium."
+
+#: /var/www/caramel/lib/Cms/Banner.pm:77
+msgid "Invalid Validity Type field."
+msgstr "Neplatný typ validace."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:26
+msgid "Invalid banner identifier."
+msgstr "Neplatný identifikátor banneru."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:33
+msgid "Invalid locale field."
+msgstr "Neplatná lokalizace."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:39
+msgid "Invalid Content type type field."
+msgstr "Neplatný typ obsahu."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:40
+msgid "Content type"
+msgstr "Typ obsahu"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:47
+msgid "Invalid Content type field."
+msgstr "Neplatný obsah."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:48
+msgid "Content"
+msgstr "Obsah"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:54
+msgid "Invalid Title type field."
+msgstr "Neplatný titulek."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:55
+msgid "Title"
+msgstr "Titulek"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:59
+msgid "Tab image is missing."
+msgstr " Obrázek tabu chybí"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:60
+msgid "Tab image"
+msgstr "Obrázek tabu"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:64
+msgid "Main image is missing."
+msgstr " Hlavní obrázek chybí"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:65
+msgid "Main image"
+msgstr "Hlavní obrázek"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:83
+msgid "Invalid Alternative text field."
+msgstr "Neplatný alternativní text."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:84
+msgid "Alternative text"
+msgstr "Alternativní text"
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:90
+msgid "Invalid URL field."
+msgstr "Neplatná URL adresa."
+
+#: /var/www/caramel/lib/Cms/Banner/Lang.pm:91
+msgid "URL"
+msgstr "Adresa URL"
+
+#: /var/www/caramel/lib/Catalog/Import.pm:138
+#: /var/www/caramel/lib/Catalog/Import.pm:145
+#: /var/www/caramel/lib/Catalog/Import.pm:155
+#: /var/www/caramel/lib/Catalog/Import.pm:163
+msgid "N/A"
+msgstr "N/A"
+
+#: /var/www/caramel/lib/Catalog/Import/Article.pm:153
+msgid "last piece"
+msgstr "ṕoslední kus"
+
+#: /var/www/caramel/lib/Catalog/Import/Article.pm:156
+msgid "2-5 pieces"
+msgstr "2-5 kusů"
+
+#: /var/www/caramel/lib/Catalog/Import/Article.pm:159
+msgid "6-10 pieces"
+msgstr "6-10 kusů"
+
+#: /var/www/caramel/lib/Catalog/Import/Article.pm:162
+msgid "11 and more"
+msgstr "11 a více kusů"
+
+#: /var/www/caramel/templates/not_found.html.ep:29
+msgid "Page not found"
+msgstr "Stránka nenalezena"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:9
+#: /var/www/caramel/templates/partial/default/header.html.ep:15
+msgid "System"
+msgstr "Systém"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:10
+msgid "Web synchronization"
+msgstr "Synchronizace webu"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:19
+msgid "Run all"
+msgstr "Spustit vše"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:31
+msgid "Domain"
+msgstr "Doména"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:32
+msgid "Records"
+msgstr "Záznamy"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:33
+msgid "Status"
+msgstr "Stav"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:34
+#, fuzzy
+msgid "Last exec"
+msgstr "Poslední objednávky"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:35
+msgid "Last finish"
+msgstr "Naposledy synchronizováno"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:36
+msgid "Action"
+msgstr "Akce"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:45
+msgid "Done"
+msgstr "Hotovo"
+
+#: /var/www/caramel/templates/catalog/import.html.ep:51
+msgid "Run"
+msgstr "Spustit"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:26
+#, fuzzy
+msgid "Available sizes"
+msgstr "Tabulka velikostí"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:39
+#: /var/www/caramel/templates/catalog/list.html.ep:83
+msgid "Number of products on page"
+msgstr "Počet produktů na stránce"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:52
+#, fuzzy
+msgid "Favorites"
+msgstr "Oblíbené"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:70
+msgid "View all"
+msgstr "Zobrazit vše"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:70
+msgid "articles"
+msgstr "artiklů"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:111
+msgid "Select sizes"
+msgstr "Vyberte velikosti"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:116
+msgid "Select price range"
+msgstr "Vyberte rozsah cen"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:125
+msgid "Select colors"
+msgstr "Vyberte barvy"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:130
+msgid "Select brands"
+msgstr "Vyberte značky"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:135
+msgid "Select technologies"
+msgstr "Vyberte technologie"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:140
+msgid "Reset filters"
+msgstr "Obnovit filtry"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:146
+#: /var/www/caramel/templates/catalog/list.html.ep:148
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:149
+msgid "Sign into newsletter"
+msgstr "Přihlásit se k newsletteru"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:150
+msgid "GO"
+msgstr ""
+
+#: /var/www/caramel/templates/catalog/list.html.ep:154
+msgid "Facebook"
+msgstr "Facebook"
+
+#: /var/www/caramel/templates/catalog/list.html.ep:155
+msgid "Follow Bata"
+msgstr "Sledujte Baťu"
+
+#: /var/www/caramel/templates/cod/modulelist.html.ep:1
+#: /var/www/caramel/templates/partial/default/header.html.ep:8
+msgid "BataHome"
+msgstr "Bata Home"
+
+#: /var/www/caramel/templates/cod/modulelist.html.ep:8
+msgid "Manage customer orders on stores factories and warehouses"
+msgstr "Vyřizovat a vkladát objednávky z prodejen a prodejních skladů"
+
+#: /var/www/caramel/templates/cod/modulelist.html.ep:14
+msgid "Administration"
+msgstr "Administrace"
+
+#: /var/www/caramel/templates/cod/modulelist.html.ep:15
+msgid "Manage informations about customer orders from callcentre perspective"
+msgstr "Administrace zákaznických objednávek pro Call Centre"
+
+#: /var/www/caramel/templates/cod/modulelist.html.ep:17
+msgid "New order"
+msgstr "Nová objednávka"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:1
+#: /var/www/caramel/templates/partial/default/header.html.ep:16
+msgid "Reports & Analysis"
+msgstr "Sestavy a analýzy"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:3
+msgid "Web"
+msgstr "Web"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:9
+msgid "Web properity card. Module to analyse data from multi channel."
+msgstr "Web prosperity card. Analýza prodejních informací z vícekanálového prodeje."
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:14
+msgid "Weekly dashboard"
+msgstr "Týdenní přehled"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:15
+msgid "Weekly dashboard from ZOHO reporting system."
+msgstr "Týdenní přehled dashboardu z reportovacího systému ZOHO"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:20
+msgid "Monthly dashboard"
+msgstr "Měsíční přehled"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:21
+msgid "Monthly dashboard from ZOHO reporting system."
+msgstr "Měsíční přehled dashboardu z reportovacího systému ZOHO"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:28
+msgid "Stores"
+msgstr "Prodejny"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:33
+msgid "Daily Business Report"
+msgstr "Denní hlášení"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:34
+msgid "Actual performance indicators for stores."
+msgstr "Aktuální denní výsledky pro prodejny."
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:39
+msgid "Store estimates"
+msgstr "Plány prodejen"
+
+#: /var/www/caramel/templates/reports/modulelist.html.ep:40
+msgid "See and edit  store estimates."
+msgstr "Prohlížení a úprava plánů prodejen"
+
+#: /var/www/caramel/templates/partial/message.html.ep:2
+msgid "Close message"
+msgstr "Zavřít zprávu"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:6
+msgid "Home"
+msgstr "Domů"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:7
+msgid "Catalog"
+msgstr "Katalog"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:9
+msgid "MyBata"
+msgstr "MyBata"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:10
+msgid "Structure"
+msgstr "Struktura"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:11
+msgid "Agenda"
+msgstr "Agenda"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:12
+msgid "CMS"
+msgstr "CMS"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:13
+msgid "Info"
+msgstr "Informace"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:14
+msgid "Apps"
+msgstr "Aplikace"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:32
+#: /var/www/caramel/templates/partial/default/header.html.ep:40
+#: /var/www/caramel/templates/partial/web/header.html.ep:54
+msgid "Search"
+msgstr "Hledat"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:36
+msgid "Global search"
+msgstr "Hledání"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:37
+msgid "Search text"
+msgstr "Hledaný text"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:38
+msgid "Advanced search"
+msgstr "Rozšířené hledání"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:44
+msgid "Favorite"
+msgstr "Oblíbené"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:55
+msgid "Edit"
+msgstr "Upravit"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:56
+msgid "Save"
+msgstr "Uložit"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:57
+msgid "Add"
+msgstr "Přidat"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:58
+msgid "Cancel"
+msgstr "Storno"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:65
+msgid "Your profile"
+msgstr "Váš účet"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:66
+msgid "Customize dashboard"
+msgstr "Upravit plochu"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:67
+msgid "Help"
+msgstr "Nápověda"
+
+#: /var/www/caramel/templates/partial/default/header.html.ep:68
+#: /var/www/caramel/templates/partial/web/header.html.ep:32
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:27
+#: /var/www/caramel/templates/partial/web/header.html.ep:28
+msgid "route_club"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:27
+msgid "Login"
+msgstr "Přihlášení"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:28
+msgid "route_registration"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:28
+msgid "Registration"
+msgstr "Registrace"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:32
+msgid "route_logout"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:38
+#, fuzzy
+msgid "route_contact_us"
+msgstr "Katalog"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:38
+msgid "041 86 20 719 Customer service (mo-fr 9:00-19:00)"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:39
+#, fuzzy
+msgid "route_store_locator"
+msgstr "Katalog"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:39
+msgid "Store locator"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:40
+#, fuzzy
+msgid "route_faq"
+msgstr "Katalog"
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:40
+msgid "FAQ"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:41
+msgid "route_delivery_and_prices"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:41
+msgid "Delivery and prices"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:68
+msgid "route_basket"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:69
+msgid "route_favourites"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/header.html.ep:69
+msgid "Favourites"
+msgstr "Oblíbené"
+
+#: /var/www/caramel/templates/partial/web/footer.html.ep:52
+msgid "VISIT BATA.COM"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/footer.html.ep:53
+msgid "INTERNATIONAL SITE"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:1
+msgid "Info box"
+msgstr "Informace"
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:4
+msgid "Bata Home"
+msgstr "Baťa Home"
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:5
+msgid "Delivery & Refund"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:9
+msgid "Article number"
+msgstr "Číslo artiklu"
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:10
+msgid "Used materials"
+msgstr "Použité materiály"
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:36
+msgid "Color"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:38
+#, fuzzy
+msgid "Article description"
+msgstr "Číslo artiklu"
+
+#: /var/www/caramel/templates/partial/web/article/info_box.html.ep:47
+msgid "deliveryAndReturnsDescription"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:1
+msgid "Ratings and Comments to this article"
+msgstr "Hodnocení a komentáře k artiklu"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:8
+msgid "No rating"
+msgstr "Žádné hodnocení"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:12
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:40
+msgid "Your comment"
+msgstr "Váš komentář"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:44
+msgid "Your name"
+msgstr "Vaše jméno"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:47
+msgid "Publish comment to Facebook"
+msgstr "Sdílet komentář na Facebook"
+
+#: /var/www/caramel/templates/partial/web/article/comments.html.ep:49
+msgid "Add comment"
+msgstr "Přidat komentář"
+
+#: /var/www/caramel/templates/partial/web/article/article_image_and_share.html.ep:1
+msgid "Article image and share"
+msgstr "Obrázek artiklu a sdílení"
+
+#: /var/www/caramel/templates/partial/web/article/article_image_and_share.html.ep:40
+msgid "I like it"
+msgstr "Líbí se mi"
+
+#: /var/www/caramel/templates/partial/web/article/article_image_and_share.html.ep:41
+msgid "Share on Facebook"
+msgstr "Sdílet na Facebooku"
+
+#: /var/www/caramel/templates/partial/web/article/article_image_and_share.html.ep:42
+msgid "preferred"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/article_image_and_share.html.ep:42
+msgid "Send to a friend"
+msgstr "Poslat příteli"
+
+#: /var/www/caramel/templates/partial/web/article/recommendations.html.ep:2
+#: /var/www/caramel/templates/partial/web/article/recommendations.html.ep:25
+msgid "Recommendations"
+msgstr "Doporučení"
+
+#: /var/www/caramel/templates/partial/web/article/newsletter_box.html.ep:2
+msgid "Newsletter by Email"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:1
+msgid "Basket box"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:5
+msgid "Variants"
+msgstr "Varianty"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:24
+msgid "Free shipping!"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:25
+msgid "on orders over"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:28
+msgid "Delivery Times & Costs"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:39
+msgid "Select size"
+msgstr "Vybrat velikost"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:50
+msgid "Table of sizes"
+msgstr "Tabulka velikostí"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:56
+msgid "Please first select a required size"
+msgstr "Nejdříve prosím vyberte velikost"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:64
+msgid "Select amount"
+msgstr "Vybrat množství"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:78
+msgid "ADD TO BASKET"
+msgstr "PŘIDAT DO KOŠÍKU"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:83
+msgid "route_stores"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:83
+msgid "route_products"
+msgstr ""
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:83
+msgid "Where can I buy it"
+msgstr "Kde to koupím"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:86
+msgid "Add to the favourites"
+msgstr "Přidat do oblíbených"
+
+#: /var/www/caramel/templates/partial/web/article/basket_box.html.ep:89
+msgid "Remove from the favourites"
+msgstr "Odebrat z oblíbených"
+
+#: /var/www/caramel/templates/partial/web/list/listing.html.ep:18
+msgid "Page"
+msgstr "Strana"
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:4
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:43
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:4
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:43
+msgid "Add notification"
+msgstr "Přidat oznámení"
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:20
+#, php-format
+msgid "Store %s has been asked to describe defective article %s."
+msgstr "Prodejna %s byla požádána o popis závad artiklu %s."
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:22
+msgid "important"
+msgstr "důležité"
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:33
+#: /var/www/caramel/templates/partial/widget/directive.html.ep:15
+#: /var/www/caramel/templates/chain/directive/view.html.ep:24
+msgid "new"
+msgstr "nový"
+
+#: /var/www/caramel/templates/partial/widget/notification.html.ep:47
+msgid "No actual notifications."
+msgstr "Žádná oznámení nejsou k dispozici"
+
+#: /var/www/caramel/templates/partial/widget/directive.html.ep:3
+#: /var/www/caramel/templates/chain/directive/view.html.ep:12
+#: /var/www/caramel/templates/chain/directive/list.html.ep:16
+msgid "Directives"
+msgstr "Pokyny"
+
+#: /var/www/caramel/templates/partial/widget/directive.html.ep:4
+msgid "Add directive"
+msgstr "Přidat pokyn"
+
+#: /var/www/caramel/templates/partial/widget/directive.html.ep:26
+msgid "No actual directives."
+msgstr "Žádné pokyny nejsou k dispozici"
+
+#: /var/www/caramel/templates/partial/widget/message.html.ep:3
+msgid "News"
+msgstr "Novinky"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:4
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:48
+msgid "Last orders"
+msgstr "Poslední objednávky"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:4
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:48
+msgid "Add order"
+msgstr "Nová objednávka"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:18
+msgid "Refunded"
+msgstr "Vráceno"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:20
+msgid "Waiting for refund"
+msgstr "Čeká na vrácení"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:22
+msgid "Refused"
+msgstr "Odmítnuto"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:24
+msgid "Announced"
+msgstr "Oznámeno"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:26
+msgid "Canceled"
+msgstr "Zrušeno"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:28
+msgid "Finished"
+msgstr "Ukončeno"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:30
+msgid "Searching"
+msgstr "Hledání"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:32
+msgid "Waiting for payment"
+msgstr "Čeká na zaplacení"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:34
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:36
+msgid "Unknows status"
+msgstr "Neznámý status"
+
+#: /var/www/caramel/templates/partial/widget/orders.html.ep:52
+msgid "No actual orders."
+msgstr "Žádné objednávky"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:8
+msgid "Manage store estimates for sales SMS"
+msgstr "Upravovat plány prodejen pro informační SMS"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:14
+msgid "Manage informations about stores"
+msgstr "Upravovat informace o prodejnách"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:19
+msgid "Staff"
+msgstr "Zaměstnanci"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:20
+msgid "Manage informations about employeers"
+msgstr "Upravovat informace o zaměstnaních"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:25
+msgid "Devices"
+msgstr "Zařízení"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:26
+msgid "Manage informations about all electronic devices in the company"
+msgstr "Upravovat informace o zařízeních na prodejnách"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:31
+msgid "Reviews"
+msgstr "Prohlédnout"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:32
+msgid "Manage review campaigns after training"
+msgstr "Upravovat kampaně pro hodnocení kurzů "
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:37
+msgid "Network"
+msgstr "Síť"
+
+#: /var/www/caramel/templates/chain/modulelist.html.ep:38
+msgid "Manage review network definitions. Networks are used for devices management"
+msgstr "Upravovat informace o počítačových sítích"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:28
+msgid "Back"
+msgstr "Zpět"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:29
+#: /var/www/caramel/templates/chain/directive/list.html.ep:118
+msgid "Print"
+msgstr "Tisk"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:50
+msgid "Whom"
+msgstr "Komu"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:59
+msgid "Copy"
+msgstr "Kopie"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:68
+#: /var/www/caramel/templates/chain/directive/list.html.ep:91
+msgid "Valid from"
+msgstr "Platný od"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:78
+msgid "Valid to"
+msgstr "Platnost do"
+
+#: /var/www/caramel/templates/chain/directive/view.html.ep:98
+msgid "Attached"
+msgstr "Přílohy"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:25
+msgid "Advanced filter"
+msgstr "Rozšířený filtr"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:27
+#: /var/www/caramel/templates/chain/directive/list.html.ep:46
+msgid "Cancel filter"
+msgstr "Zrušit filtr"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:32
+#: /var/www/caramel/templates/chain/directive/list.html.ep:89
+msgid "Subject"
+msgstr "Předmět"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:36
+#: /var/www/caramel/templates/chain/directive/list.html.ep:90
+msgid "Author"
+msgstr "Autor"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:40
+msgid "Newer than"
+msgstr "Novější než"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:41
+msgid "Format"
+msgstr "Formát"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:45
+msgid "Filter"
+msgstr "Filtrovat"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:57
+msgid "Add new"
+msgstr "Přidat další"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:58
+msgid "Cancel ordering"
+msgstr "Zrušit řazení"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:65
+msgid "All"
+msgstr "Vše"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:66
+msgid "Active"
+msgstr "Aktivní"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:88
+msgid "Directive No."
+msgstr "Pokyn č."
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:115
+msgid "Delete"
+msgstr "Odstranit"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:127
+msgid "RSS"
+msgstr "RSS"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:142
+msgid "Previous page"
+msgstr "Předchozí stránka"
+
+#: /var/www/caramel/templates/chain/directive/list.html.ep:145
+msgid "Next page"
+msgstr "Další strana"
+
+#: /var/www/caramel/templates/cms/modulelist.html.ep:7
+#: /var/www/caramel/templates/cms/banner.html.ep:20
+#: /var/www/caramel/templates/cms/banner/list.html.ep:21
+msgid "Editorial"
+msgstr "Editoriál"
+
+#: /var/www/caramel/templates/cms/modulelist.html.ep:8
+msgid "Manage editorials for frontend"
+msgstr "Upravovat editoral sekce pro webový obchod"
+
+#: /var/www/caramel/templates/cms/modulelist.html.ep:10
+msgid "Quick add new editorial"
+msgstr "Rychle přidat nový prvek editorialu"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:24
+#, fuzzy
+msgid "Edit editorial node"
+msgstr "Přidat nebo editovat prvek editoriálu"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:39
+#: /var/www/caramel/templates/cms/banner.html.ep:50
+msgid "Not defined"
+msgstr "Není definováno"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:45
+msgid "Revisions"
+msgstr "Revize"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:46
+msgid "Show all"
+msgstr "Zobrazit vše"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:56
+msgid "Close"
+msgstr "Zavřít"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:64
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:92
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:428
+msgid "Remove"
+msgstr "Odstranit"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:75
+msgid "How many tabs of editorial"
+msgstr "Počet tabů"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:79
+msgid "Choose"
+msgstr "Vybrat"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:91
+msgid "Validity"
+msgstr "Platnost"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:96
+msgid "Standard visible"
+msgstr "Zobrazit vždy"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:100
+msgid "Schedule"
+msgstr "Plánovat"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:104
+msgid "From"
+msgstr "Platnost od:"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:109
+msgid "To"
+msgstr "Platnost do:"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:118
+#: /var/www/caramel/templates/cms/banner/list.html.ep:31
+msgid "Territory"
+msgstr "Teritorium"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:139
+msgid "English translation is required. For easier administration by foreign administrator."
+msgstr "Anglický překlad je nutný pro administraci."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:140
+msgid "Title of editorial. Text will be display on tab."
+msgstr "Titulek editoriálu. Text bude zobrazen na tabu."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:143
+#: /var/www/caramel/templates/cms/banner.html.ep:165
+#: /var/www/caramel/templates/cms/banner.html.ep:226
+#: /var/www/caramel/templates/cms/banner.html.ep:235
+msgid "Choose number of tabs above."
+msgstr "Nejdříve prosím zvolte počet tabů výše."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:154
+#: /var/www/caramel/templates/cms/banner.html.ep:188
+msgid "Drop files here to upload"
+msgstr "Sem přetáhněte soubor, který chcete nahrát."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:155
+#: /var/www/caramel/templates/cms/banner.html.ep:189
+msgid "Upload a file"
+msgstr "Nahrát soubor"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:159
+msgid "Strict resolution 30x100px. Maximum size of file is 50kB."
+msgstr "Určená velikost obrázku je 30x100px. Maximální datová velikost je 50kB."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:176
+msgid "Image"
+msgstr "Obrázek"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:180
+msgid "HTML"
+msgstr "HTML kód"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:193
+msgid "Strict resolution 230x100px. Maximum size of file is 50kB."
+msgstr "Určená velikost obrázku je 230x100px. Maximální datová velikost je 50kB."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:198
+msgid "URL to content"
+msgstr "Odkaz na obsah"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:200
+msgid "URL content displayed after you click on editorial item."
+msgstr "Adresa obsahu, který bude zobrazen po kliknutí na položku editoriálu"
+
+#: /var/www/caramel/templates/cms/banner.html.ep:205
+msgid "Alternative text fot search engine."
+msgstr "Alternativní text pro vyhledávač."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:215
+msgid "Content must be fit to 500x300px."
+msgstr "Obsah musí mít velikost 500x300px."
+
+#: /var/www/caramel/templates/cms/banner.html.ep:232
+msgid "Branches"
+msgstr "Větve"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:47
+#: /var/www/caramel/templates/cms/banner/list.html.ep:61
+msgid "Content manager"
+msgstr "Správce obsahu"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:50
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:30
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:85
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:20
+msgid "Hierarchy"
+msgstr "Hierarchie"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:178
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:403
+msgid "No."
+msgstr "Číslo"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:180
+msgid "ID"
+msgstr "ID"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:181
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:387
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:405
+msgid "Preview"
+msgstr "Náhled"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:183
+msgid "Last modified"
+msgstr "Změněno"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:184
+msgid "Tabs"
+msgstr "Taby"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:191
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:416
+msgid "Sort"
+msgstr "Třídít"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:208
+msgid "Category in"
+msgstr "Kategorie"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:259
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:460
+msgid "Show more"
+msgstr "Zobrazit více"
+
+#: /var/www/caramel/templates/cms/banner/list.html.ep:262
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:463
+msgid "First page"
+msgstr "První strana"
+
+#: /var/www/caramel/templates/pages/logout.html.ep:35
+msgid "Signed out"
+msgstr "Jste odhlášen"
+
+#: /var/www/caramel/templates/pages/lost.html.ep:3
+#: /var/www/caramel/templates/pages/lost.html.ep:19
+msgid "Back to login"
+msgstr "Zpátky na příhlášení"
+
+#: /var/www/caramel/templates/pages/lost.html.ep:4
+#: /var/www/caramel/templates/pages/login.html.ep:3
+msgid "There is an internal error on server side."
+msgstr "Nastala interní chyba na straně serveru."
+
+#: /var/www/caramel/templates/pages/lost.html.ep:9
+msgid "Enter your username"
+msgstr "Vložte uživatelské jméno"
+
+#: /var/www/caramel/templates/pages/lost.html.ep:11
+msgid "New password will send to your mobile phone."
+msgstr "Heslo bude odesláno na mobilní telefon."
+
+#: /var/www/caramel/templates/pages/lost.html.ep:14
+msgid "Send me new password"
+msgstr "Poslat nové heslo"
+
+#: /var/www/caramel/templates/pages/login.html.ep:2
+msgid "Username or password is wrong."
+msgstr "Uživatelské jméno nebo heslo je špatně."
+
+#: /var/www/caramel/templates/pages/login.html.ep:8
+msgid "Username"
+msgstr "Jméno uživatele"
+
+#: /var/www/caramel/templates/pages/login.html.ep:12
+msgid "Password"
+msgstr "Heslo"
+
+#: /var/www/caramel/templates/pages/login.html.ep:20
+msgid "Lost password?"
+msgstr "Ztratil jste heslo?"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:3
+msgid "Core"
+msgstr "Hlavní"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:9
+msgid "Manage rules for employeers"
+msgstr "Upravit pokyny pro zaměstnance"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:11
+#: /var/www/caramel/templates/pages/agenda.html.ep:18
+#: /var/www/caramel/templates/pages/agenda.html.ep:31
+#: /var/www/caramel/templates/club/modulelist.html.ep:10
+msgid "Quick add content"
+msgstr "Rychle přidat obsah"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:16
+msgid "Manage informations for intranet users"
+msgstr "Upravovat a vkládat informace pro uživatele intranetu"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:22
+msgid "Telephone directory"
+msgstr "Telefonní seznam"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:23
+msgid "Bata Golden pages"
+msgstr "Baťovské Zlaté Stránky"
+
+#: /var/www/caramel/templates/pages/agenda.html.ep:29
+msgid "B2B orders for Bata suppliers"
+msgstr "B2B objednávky pro Baťa dodavatele"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:1
+msgid "Applications"
+msgstr "Aplikace"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:7
+msgid "Bugzilla"
+msgstr "Bugzilla"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:8
+msgid "Request tracker used by all BataHOME departments, MDC, CZ/SK IT and CZ/SK FinDep"
+msgstr "Správce požadavků používaný převážne středisky BataHOME a IT"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:13
+msgid "Reservations"
+msgstr "Rezervační systém"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:14
+msgid "Reserver meeting rooms, cars ..."
+msgstr "Rezervační systém pro zasedačky, auta a ostatní sdílené zařízení"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:14
+#: /var/www/caramel/templates/pages/apps.html.ep:20
+#: /var/www/caramel/templates/club/modulelist.html.ep:14
+#: /var/www/caramel/templates/club/modulelist.html.ep:20
+msgid "CZ/SK Only"
+msgstr "Pouze CZ/SK"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:19
+msgid "WMS"
+msgstr "WMS"
+
+#: /var/www/caramel/templates/pages/apps.html.ep:20
+msgid "Warehouse Management System"
+msgstr "Systém pro řízení skladu"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:7
+msgid "Customers"
+msgstr "Zákazníci"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:8
+msgid "Search,view and edit data about customers"
+msgstr "Hledat, zobrazit a upravovat informace o zákaznících"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:14
+msgid "Points"
+msgstr "Body"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:15
+msgid "Search and view customer point generated from sales"
+msgstr "Hledat a zobrazovat body věrnostního programu generované z prodejnů"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:20
+msgid "Sales"
+msgstr "Prodeje"
+
+#: /var/www/caramel/templates/club/modulelist.html.ep:21
+msgid "Search and view customer sales"
+msgstr "Hledat a zobrazit zákaznické prodede"
+
+#: /var/www/caramel/templates/schema/modulelist.html.ep:7
+msgid "Users"
+msgstr "Uživatelé"
+
+#: /var/www/caramel/templates/schema/modulelist.html.ep:8
+msgid "Manage users"
+msgstr "Správa uživatelů"
+
+#: /var/www/caramel/templates/schema/modulelist.html.ep:10
+msgid "Add user"
+msgstr "Přidat uživatele"
+
+#: /var/www/caramel/templates/schema/modulelist.html.ep:14
+msgid "Web Synchronization"
+msgstr "Synchronizace webu"
+
+#: /var/www/caramel/templates/schema/modulelist.html.ep:15
+msgid "Synchronize data between web cache and caramel transaction tables."
+msgstr ""
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:13
+msgid "Search informations about articles"
+msgstr "Hledat informace o artiklech"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:18
+msgid "Wishlist"
+msgstr "Můj výběr"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:19
+msgid "Manage, view and print wishlist of articles"
+msgstr "Spravovat a zobrazovat \"Můj výběr\""
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:25
+msgid "Manage, view and print shoebox labels"
+msgstr "Spravovat, zobrazovat a tisknout etikety"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:31
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:86
+msgid "Manage and view article hieararchy in many tree structures"
+msgstr "Spravovat a zobrazovat hierarchii artiklů ve stromových strukturách"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:37
+msgid "Complaints"
+msgstr "Reklamace"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:42
+msgid "Customer complaints"
+msgstr "Zákaznické reklamace"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:43
+msgid "Czech application for customer complaints"
+msgstr "Česká aplikace pro zákaznické reklamace"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:48
+msgid "Supplier complaints"
+msgstr "Reklamace dodávek"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:49
+msgid "Czech application for supplier complaints"
+msgstr "Česká aplikace pro reklamace dodávek"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:54
+msgid "Questionnaires"
+msgstr "Dotazníky"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:55
+msgid "Questionnaires to search deffective articles"
+msgstr "Dotazníky pro hledání vadných artiklů"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:60
+msgid "Complaint report"
+msgstr "Zákaznické reklamace"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:61
+msgid "Report to analyse complaints from stores"
+msgstr "Sestava pro analýzu zákaznických reklamací z prodejen"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:68
+msgid "Previous version"
+msgstr "Předchozí verze"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:73
+msgid "Old look directory"
+msgstr "Původní verze seznamu"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:74
+msgid "See the previous version of catalog directory"
+msgstr "Zobrazit předchozí verzi seznamu modulů pro katalog"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:79
+msgid "Tree definition"
+msgstr "Definice stromů"
+
+#: /var/www/caramel/templates/workbook/modulelist.html.ep:80
+msgid "Manage and view definition of trees"
+msgstr "Spravovat a zobrazovat definici stromů"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:29
+msgid "Season"
+msgstr "Sezóna"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:37
+msgid "All articles"
+msgstr "Všechny artikly"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:40
+msgid "Tree path"
+msgstr ""
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:42
+msgid "Tree management"
+msgstr "Stromy artiklů"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:44
+msgid "Usage"
+msgstr "Použití"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:49
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:57
+msgid "Tree"
+msgstr "Strom"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:66
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:166
+msgid "Not selected"
+msgstr "Není vybráno"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:80
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:107
+msgid "Import articles by article number"
+msgstr "Importovat artikly pomocí čísla artiklu"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:86
+msgid "Add to queue"
+msgstr "Přidat do fronty"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:344
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:406
+msgid "Article No."
+msgstr "Číslo artiklu"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:348
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:407
+msgid "Brand"
+msgstr "Značka"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:352
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:410
+msgid "Displayed"
+msgstr "Zobrazeno"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:356
+msgid "Yes"
+msgstr "Ano"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:374
+msgid "Add articles"
+msgstr "Přidat artikly"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:375
+msgid "Copy articles"
+msgstr "Zkopírovat artikly"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:376
+msgid "Edit category"
+msgstr "Upravit kategorii"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:377
+msgid "Delete category"
+msgstr "Odstranit kategorii"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:386
+msgid "List"
+msgstr "Seznam"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:408
+msgid "Price"
+msgstr "Cena"
+
+#: /var/www/caramel/templates/workbook/item/article/list.html.ep:409
+msgid "Attributes"
+msgstr "Atributy"
+
+#: /var/www/caramel/www/js/Caramel/Message.js:58
+#: /var/www/caramel/www/js/Caramel/HistoryBox.js:57
+msgid "Error on server side. Pls contant administrators."
+msgstr "Vyskytla se chyba na straně serveru. Kontaktujte prosím administrátora."
+
+#: /var/www/caramel/www/js/Caramel/List.js:231
+msgid "There was an error while retrieving data from the server."
+msgstr "Nastala chyba při přijímání dat ze serveru."
+
+#: /var/www/caramel/www/js/Caramel/Web/SearchSlider.js:106
+msgid "SEARCH"
+msgstr "Hledat"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/ListTree.js:35
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/ListTree.js:49
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:145
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:162
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:183
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/ListAdd.js:57
+msgid "Bad server response. Try reload page."
+msgstr "Špatná odezva serveru. Zkuste obnovit stránku."
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:211
+#: /var/www/caramel/www/js/Caramel/Cms/Banner/List.js:247
+msgid "There is network error during sending data to server."
+msgstr "Nastala chyba sítě v průběhu odesílání dat na server."
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:293
+msgid "No web photo"
+msgstr "Chybí fotka pro web"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:294
+msgid "Invalid material"
+msgstr "Neplatný materiál"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:295
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:296
+msgid "No web sale"
+msgstr "Není internetový prodej"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:297
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:298
+msgid "Hide prev price"
+msgstr "Skrýt původní cenu"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:299
+msgid "Material ignored"
+msgstr "Materiál ignorován"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:300
+msgid "No chain sale"
+msgstr ""
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:301
+msgid "Non RPE art."
+msgstr ""
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:302
+msgid "Invalid attr."
+msgstr "Neplatný atribut"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/List.js:310
+msgid "Not in web catalog"
+msgstr "Není ve webovém katalogu"
+
+#: /var/www/caramel/www/js/Caramel/Workbook/Item/ListAdd.js:84
+msgid "Just first 10 articles added. Specify article number more accurately."
+msgstr ""
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:59
+msgid "Error to get languages list from  server."
+msgstr "Chyba při získávání seznamu jazyků ze serveru."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:81
+#: /var/www/caramel/www/js/Caramel/Cms/Banner/List.js:87
+msgid "Bad server response during hierarchy load. Try reload page."
+msgstr "Špatná odezva serveru během načítání hierarchie. Zkuste obnovit stránku."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:170
+msgid "{file} has invalid extension. Only {extensions} are allowed."
+msgstr "{file} má neplatnou příponu. Povoleny jsou pouze {extensions} ."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:171
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr "{file} je příliš veliký, maximum je {sizeLimit}."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:172
+msgid "{file} is too small, minimum file size is {minSizeLimit}."
+msgstr "Soubor {file} je příliš malý, minimální velikost souboru je {minSizeLimit}."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:173
+msgid "{file} is empty, please select files again without it."
+msgstr "Soubor {file} je prázdný, vyberte prosím soubory znova bez něj."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:174
+msgid "The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr "Soubory budou nahrány. Pokud opustíte stránku, nahrávání bude přerušeno."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:342
+msgid "Not set validity type."
+msgstr "Nebyl nastaveny typ validace."
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:348
+msgid "Not set number of tabs."
+msgstr "Nebyl zadán počet tabů"
+
+#: /var/www/caramel/www/js/Caramel/Cms/Banner.js:359
+msgid "Not set language title"
+msgstr "Nebyl zadán titulek pro jazyk"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/Comments.js:82
+msgid "Please fill in your name and a comment content"
+msgstr "Vyplňte prosím své jméno a komentář"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/Import.js:42
+msgid "Preparing"
+msgstr "Příprava"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/Import.js:46
+msgid "Running"
+msgstr "Běží"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/Import.js:50
+msgid "Finishing"
+msgstr "Dokončuji"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/ArticleImages.js:88
+msgid "of"
+msgstr "z"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/ArticleImages.js:89
+msgid "Previous"
+msgstr "Předchozí stránka"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/ArticleImages.js:90
+msgid "Next"
+msgstr "Další stránka"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/ArticleImages.js:92
+msgid "Start slideshow"
+msgstr "Spustit prezentaci"
+
+#: /var/www/caramel/www/js/Caramel/Catalog/ArticleImages.js:93
+msgid "Stop slideshow"
+msgstr "Zastavit prezentaci"
+
+#, fuzzy
+#~ msgid "Main content"
+#~ msgstr "Obsah"
+#~ msgid "No article matching the filter"
+#~ msgstr "Žádný artikl neodpovídá nastaveným hodnotám"
+
+#, fuzzy
+#~ msgid "Price range"
+#~ msgstr "Vyberte rozsah cen"
+#~ msgid "No image"
+#~ msgstr "Chybí obrázek"
+#~ msgid "Error to get article hierarchy from server."
+#~ msgstr "Chyba při získávání hierarchie artiklů ze serveru."
+#~ msgid "OK"
+#~ msgstr "OK"
+#~ msgid "descending"
+#~ msgstr "sestupně"
+#~ msgid "ascending"
+#~ msgstr "vzestupně"
+#~ msgid "Locale"
+#~ msgstr "Lokale"
+#~ msgid "This is stupid text"
+#~ msgstr "Toto je stupidni text 444444"
+#~ msgid "Lost"
+#~ msgstr "Ztracené heslo"
+#~ msgid "There is a internal error on server side."
+#~ msgstr "Nastala interní chyba na straně serveru."
+

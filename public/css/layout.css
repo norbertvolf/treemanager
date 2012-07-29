@@ -1,0 +1,250 @@
+/**
+ * Layout Styling
+ */
+
+/* color helpers */
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.grey {
+  background-color: grey;
+}
+
+
+html, body {
+  height: 100%;
+  background-color:#FBFBFB;
+}
+
+#page {
+  position: relative;
+  min-height: 100%;
+  min-width: 980px;
+}
+
+#header {
+	background-color: #333333;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	min-width: 980px;
+	-webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.6);
+-moz-box-shadow:    0px 0px 6px rgba(50, 50, 50, 0.6);
+box-shadow:         0px 0px 6px rgba(50, 50, 50, 0.6);  
+}
+
+#loading-wrapper {
+	position: fixed;
+	left: 50%;
+	top: 50px;
+}
+
+#loading {
+	position: absolute;
+	padding: 10px 20px;
+	background-color: yellow;
+	color: #333;
+	text-align: center;
+	background-color: #FFFFCD;
+  border: 1px solid #FFFF99;
+  border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-size: 14px;
+	z-index: 99;
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.4);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.4);
+}
+
+#loading .text {
+	margin-top: 5px;
+}
+
+p.breadcrumbs {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.login #header {
+  position: static;
+}
+
+body.login {
+}
+
+body.login #header {
+  height: 120px;
+}
+
+body.login #header #logo {
+  float: left;
+  margin: 25px 0 0 45px;
+}
+
+body.login #header h1 {
+  float: right;
+  margin: 35px 45px 0 0;
+}
+
+#content {
+  min-width: 980px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.login #content {
+  padding-top: 0;
+}
+
+#content .content-wrapper {
+  padding: 20px 20px 75px 20px;
+  overflow: hidden; 
+}
+
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  background-color: #F1F1F1;
+  overflow: hidden;
+  border-top: 1px solid #fff;
+}
+
+#footer .footer-wrapper {
+  padding: 8px 20px;
+  overflow: hidden;
+}
+
+.one-col {
+
+}
+
+.two-col {
+
+}
+
+.two-col .left {
+  float: left;
+  width: 50%;
+}
+
+.two-col .left-wrapper {
+  margin-right: 10px;
+}
+
+.two-col .right {
+  float: right;
+  width: 50%;
+}
+
+.two-col .right-wrapper {
+  margin-left: 10px;
+}
+
+
+.two-col-lf {
+
+}
+
+.two-col-lf .left {  
+  float: left;
+}
+
+.two-col-lf-200 .left {
+  width: 200px;
+}
+
+.two-col-lf-250 .left {
+  width: 250px;
+}
+
+.two-col-lf-300 .left {
+  width: 300px;
+}
+
+.two-col-lf-400 .left {
+  width: 400px;  
+}
+
+.two-col-lf .left .wrapper {
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.two-col-lf .right {
+  overflow: hidden;
+}
+
+.two-col-rf .right .wrapper {
+  overflow: hidden;
+}
+
+
+
+/* two col right fixed */
+.two-col-rf {
+
+}
+
+.two-col-rf .left {
+  overflow: hidden;
+}
+
+.two-col-rf .left .wrapper {
+  overflow: hidden;
+}
+
+.two-col-rf .left .wrapper .padding {
+  padding: 20px;
+}
+
+.two-col-rf .right {
+  float: right;
+}
+
+.two-col-rf-200 .right {
+  width: 200px;
+}
+
+.two-col-rf-250 .right {
+  width: 250px;
+}
+
+.two-col-rf-300 .right {
+  width: 300px;
+}
+
+.two-col-rf-400 .right {
+  width: 400px;
+}
+
+.two-col-rf .right .wrapper {
+  margin-left: 20px;   
+}
+
+.three-col {
+
+}
+
+/* blocks */
+
+.block-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}

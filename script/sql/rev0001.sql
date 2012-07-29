@@ -28,3 +28,10 @@ CREATE TABLE treemanager.revision (
 	statestamp TIMESTAMP not null COMMENT 'Modified at'
 );
 GRANT SELECT, INSERT ON treemanager.revision TO "www"@"localhost";
+
+/* Create first user */
+INSERT INTO user values(1, 'norbert');
+
+/* Create sequence table */
+CREATE TABLE node_sequence (id INT NOT NULL);
+INSERT INTO node_sequence VALUES (0);

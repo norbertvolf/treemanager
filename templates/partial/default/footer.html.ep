@@ -1,0 +1,14 @@
+			<div id="footer">
+				<div class="footer-wrapper">
+					<div class="fl">
+						<ul>
+							<li>Copyright &copy; 2012</li>
+						</ul>
+					</div>
+					<div class="fr">
+						<ul>
+							<li><a href="http://www.netsuite.com">netsuite.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div> <%# footer %>

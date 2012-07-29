@@ -1,0 +1,114 @@
+body {
+  background: #FFF;
+  color: #000;
+  font-family: Arial, sans-serif;
+	font-size: 10pt;
+	height: 100%;
+  width: 100%;
+}
+
+#menu, #aktuality, #main-navigation, #services, #footer, .projekty, .jak-nakupovat, .odkazy,
+  #promo, .skiplink, .bread-print, .show-all, #bata-home-top, #catalog-detail-selected-list, #shoe-box-1 ul,
+  .inbota .obl, #shoe-box-2 form fieldset, #shoe-box-2 button, #comments form, #hide_comments_link,
+    #show_comments_link, #tabs, #shoe-box-3 .obl, .pocetArtiklu, p.catalog-category-pager {
+  display: none;
+}
+
+#header {
+  height: 50px;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  border: 0
+}
+
+.bota {
+  float: left;
+  height: 237px;
+  margin: 2px 2px 0 0;
+  padding: 3px;
+  width: 120px;
+}
+
+hr {
+  clear: both;
+}
+
+#content a:link:after {
+  content: " (" attr(href) ") ";
+  font-size: 90%;
+}
+#content .inbota a:link:after, #shoe-box-1 a:link:after {
+  content: "";
+}
+
+.cena em {
+  display: block;
+  text-decoration: line-through;
+}
+
+#navigation-breadcrumbs {
+	font-size: 16pt;
+}
+
+h1 {
+	font-size: 18pt;
+	margin: 0;
+	margin-bottom: 18pt;
+}
+
+h2 {
+  clear: both;
+	font-size: 14pt;
+	margin: 0;
+	padding: 30px 0 20px 0;
+}
+h2 span{
+  padding-left: 20px;
+}
+
+h4 {
+	font-size: 12pt;
+	margin: 0;
+	margin-top: 13pt;
+}
+
+h5 {
+	font-size: 11pt;
+	margin: 0;
+	margin-top: 12pt;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 8pt;
+	padding: 0;
+}
+
+td {
+	padding-right: 15pt;
+}
+th {
+	text-align: left;
+	padding-bottom: 5pt;
+}
+
+fieldset {
+	padding: 10pt;
+}
+legend {
+	margin-bottom: 15pt;
+}
+
+#static img {
+  float: right;
+}
+
+.copy img {
+  float: right;
+  margin: 0 10px 0 0;
+}

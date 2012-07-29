@@ -1,5 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
+<html lang="cs-CZ">
+	<head>
+		<title><%= $title %></title> 
+		<meta name="description" content="Lorem ipsum" />
+		<meta charset="utf-8" />
+		<meta name="robots" content="INDEX,FOLLOW" /> 
+		<meta name="description" content="" /> 
+		<meta name="keywords" content="" /> 
+		<meta name="author" content="Tomas Russek, Norbert Volf" /> 
+
+		<link rel="stylesheet" href="/css/main.css" media="screen" />
+		<link rel="stylesheet" href="/css/print.css" media="print" />
+		<link rel="stylesheet" href="/css/smoothness/jquery-ui-1.8.17.custom.css" media="screen" />
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="gettext" type="application/x-po" href="/locale/<%= user->lang; %>/LC_MESSAGES/caramel.po">
+	</head>
+	<body class="<%= $body_class %>">
+		<div id="page">
+			<%= include 'partial/default/header' %>
+    
+			<div id="content">
+				<div class="content-wrapper <%= $content_class %>">
+					<%= content %>
+				</div>
+			</div>
+			<%= include 'partial/default/footer' %>
+		</div>
+		<script src="/js/jquery-1.7.1.min.js"></script>
+		<script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+		<script src="/js/jquery.pubsub.js"></script>
+		<script src="/js/bootstrap.js"></script>
+		<script src="/js/Gettext.js"></script>
+		<script src="/js/TreeManager/SecondaryMenu.js"></script>
+		<script src="/js/TreeManager/Message.js"></script>
+		<% for(my $i = 0; $i < scalar(@{$scripts}); $i = $i + 2 )  { %><script src="<%== $scripts->[$i] %>"></script>
+		<% } %>
+		<script>
+			;jQuery(document).ready(function() {
+				//Initialize header functions
+				;( function($, undefined) {
+					TreeManager.lang('<%= user->lang; %>');
+					var secondarymenu = new TreeManager.SecondaryMenu($('#secondary-menu'));
+					var message = new TreeManager.Message($('#message-block'));
+					<% for(my $i = 1; $i < scalar(@{$scripts}); $i = $i + 2 )  { %>
+						<% if ($scripts->[$i]) { %><%== $scripts->[$i] %><% } %>
+					<% } %>
+				}).call(TreeManager, jQuery);
+			});
+		</script>
+	</body>
 </html>
