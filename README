@@ -1,6 +1,5 @@
 * aptitude install libdbd-mysql-perl mysql-server-5.1
 * generate locale cs_CZ.UTF-8
 *  install CPAN modules 
-
-grep -ri "^use" *  | grep -v "use Mojo::Base" | grep -v "use constant" | grep -v utf8 | sed -e "s/^[^:]\+://" | sed -e "s/^use \([^ ]\+\).*/\1/" | sort  | uniq 
+* grep -ri "^use" *  | grep -v "use Mojo::Base" | grep -v "use constant" | grep -v utf8 | sed -e "s/^[^:]\+://" | sed -e "s/^use \([^ ]\+\).*/\1/" | sort  | uniq 
 
