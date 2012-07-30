@@ -1,6 +1,42 @@
-* aptitude install libdbd-mysql-perl mysql-server-5.1
-* generate locale cs_CZ.UTF-8
-*  install CPAN modules 
-* grep -ri "^use" *  | grep -v "use Mojo::Base" | grep -v "use constant" | grep -v utf8 | sed -e "s/^[^:]\+://" | sed -e "s/^use \([^ ]\+\).*/\1/" | sort  | uniq 
-* zaciname 
+INSTALATION
+-------------------------
+
+This application is just test app.
+
+You need mysql (see your distribution how to install MySQL.
+
+Debian distro:
+
+You can install debian package from http://www.volf.eu/debian/pool/main/libmojolicious-perl_3.11-1_all.deb)
+
+You can install other packages from debian also
+
+ libdbi-perl, libdbd-pg-perl, libdbd-mysql-perl, libintl-perl, libmojolicious-perl, libdatetime-locale-perl, libdatetime-perl, libdatetime-timezone-perl, libvalidation-class-perl
+
+Non debian way:
+
+To install mojolicious from CPAN see http://mojolicio.us/ documentation
+
+You can install modules from CPAN
+
+  DateTime;
+  DBD::Pg
+  DBD::mysql
+  DBI;
+  Encode;
+  File::Basename
+  File::Spec::Functions
+  Locale::Messages
+  POSIX
+  Scalar::Util
+  Test::More
+
+Create database
+
+Create database and put script/sql/rev0001.sql to database
+Then setup database in tree_manager.conf 
+
+Run application
+
+You can use mojolicious startes example morbo scripts/tree_manager and http://localhost:3000/tree in your browser
 
