@@ -1,4 +1,4 @@
-INSTALATION
+  Prerequirities
 -------------------------
 
 This application is just test app.
@@ -31,12 +31,21 @@ You can install modules from CPAN
   Scalar::Util
   Test::More
 
-Create database
+
+  Download sources
+-------------------------
+
+git://github.com/norbertvolf/treemanager.git
+
+
+  Create database
+-------------------------
 
 Create database and put script/sql/rev0001.sql to database
 Then setup database in tree_manager.conf 
 
-Run application
+  Run application
+-------------------------
 
 You can use mojolicious startes example morbo scripts/tree_manager and http://localhost:3000/tree in your browser
 
