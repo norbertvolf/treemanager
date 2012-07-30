@@ -23,6 +23,16 @@ sub check {
 	#Exists entity key
 	Mojo::Exception->throw("Not defined entity.") if ( ! exists($def->{entity}) || ! defined($def->{entity}) );
 
+	#Add last user capability
+	if ( ! exists($def->{autoloaders}->{lastuser}) && ! exists($def->{columns}->{lastuser}) && exists($def->{columns}->{stateuser}) ) {
+		$def->{autoloaders}->{lastuser} = {
+			class => $self->c->config->{user_class},
+			params => {
+				iduser => sub { my $self = shift; return($self->stateuser ? $self->stateuser : $self->c->user->iduser); }
+			},
+		};
+	};
+
 	$self->SUPER::check($def);
 
 	return($def);
@@ -209,6 +219,8 @@ sub sequence {
 	my @sec = grep { $_->{sequence} } $self->pkc;
 	if ( scalar(@sec) ) {
 		return($sec[0]->{sequence});
+	} else {
+		Mojo::Exception->throw("There is no defined sequence in class " . ref($self) . " for primary key.");
 	}
 }
 #}}}
@@ -269,7 +281,7 @@ sub remove {
 sub nextval {
 	my $self = shift;
 
-	$self->dbh->do( 'UPDATE ' . $self->sequence . 'SET id=LAST_INSERT_ID(id+1)' );
+	$self->dbh->do( 'UPDATE ' . $self->sequence . ' SET id=LAST_INSERT_ID(id+1)' );
 	my $sth = $self->dbh->prepare(q(SELECT LAST_INSERT_ID() as id));
 	$sth->execute() or Mojo::Exception->throw("$!");
 	if ( my $row = $sth->fetchrow_hashref() ) {

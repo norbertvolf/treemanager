@@ -31,6 +31,7 @@ sub startup {
 
 	# Normal route to controller
 	$r->get('/tree')->to('controller#tree');
+	$r->route('/node')->to('controller#node');
 	$r->route('/logout')->to('controller#logout');
 	$r->route('/login')->to('controller#login');
 }

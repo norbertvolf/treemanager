@@ -21,10 +21,16 @@ sub new {
 					required => 0,
 					rule => 1,
 					primary_key => 1,
-					sequence => 'treemanager.iduser',
+					sequence => 'user_sequence',
 
 				},
 				username => {
+					type => $c->DB_VARCHAR,
+					required => 1,
+					rule => 1,
+
+				},
+				signature => {
 					type => $c->DB_VARCHAR,
 					required => 0,
 					rule => 1,

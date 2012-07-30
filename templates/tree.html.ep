@@ -20,10 +20,11 @@
 			<div class="content-block">
 				<div class="input-select">  
 					<label for="pid"><%= __('PID') %></label>
-					<span class="input-text"><input id="pid" type="text" name="pid"></span>
+					<span class="input-text"><input class="tree-manager-input-idnode" id="pid" type="text" name="pid"></span>
+					<label><%= __('Use NONE to put root node') %></label>
 					
 				</div>
-				<div class="btn-small btn-wrapper"> <a class="btn-grey btn" href=""><%= __('Add') %></a></div>
+				<div class="btn-small btn-wrapper"> <a class="btn-grey btn tree-manager-button-add" href=""><%= __('Add') %></a></div>
 			</div>
 		</div>
 	</div> 
@@ -33,39 +34,13 @@
 <div class="right">
 	<h2 class="workbook-item-article-list-header">PID<span class="h2-desc">(ID: 123456)</span></h2>
 	%#{{{ list
-	<div id="table-list" class="workbook-item-article-list-table-list">
+	<div id="table-list">
 		<div class="table-rows border">
 			<table class="list">
-				<thead class="caramel-list-header">
+				<thead  class="caramel-list-header">
 					<tr>
 						<td><%= __('Depth') %></td>
-						<td colspan="3"><%= __('Tree nodes') %></td>
-					</tr>
-				</thead>
-				<tbody class="treemanager-tree-body">
-					<tr>
-						<td>1.</td>
-						<td colspan="3">NONE&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;1</td>
-					</tr>
-					<tr>
-						<td>2.</td>
-						<td colspan="2">1&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;2</td>
-						<td>1&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;3</td>
-					</tr>
-					<tr>
-						<td>3.</td>
-						<td>2&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;4</td>
-						<td>2&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;5</td>
-						<td>3&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;6</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<table class="list">
-				<thead class="caramel-list-header">
-					<tr>
-						<td><%= __('Depth') %></td>
-						<td colspan="3"><%= __('Tree nodes') %></td>
+						<td class="treemanager-tree-header-nodes" colspan="3"><%= __('Tree nodes') %></td>
 					</tr>
 					<tr class="display-no treemanager-tree-row-template">
 						<td class="display-no treemanager-tree-column-template"></td>

@@ -1,6 +1,8 @@
 CREATE DATABASE treemanager;
 USE treemanager;
 CREATE USER 'www'@'localhost';
+
+/* Create node table to persist items of tree */
 CREATE TABLE treemanager.node (
         idnode int NOT NULL AUTO_INCREMENT COMMENT 'Node identifier created from sequence',
 	idparent int NULL COMMENT 'identifer of parent node',
@@ -13,13 +15,16 @@ CREATE TABLE treemanager.node (
 );
 GRANT SELECT ON treemanager.node TO "www"@"localhost";
 
+/* Create user table for authorization */
 CREATE TABLE treemanager.user (
         iduser int NOT NULL AUTO_INCREMENT COMMENT 'User identifier created from sequence',
 	username varchar(255) NULL COMMENT 'Username',
+	signature varchar(255) NULL COMMENT 'Long name of user',
 	PRIMARY KEY (iduser)
 );
 GRANT SELECT, INSERT, UPDATE ON treemanager.user TO "www"@"localhost";
 
+/* Create table to save revision of node */
 CREATE TABLE treemanager.revision (
 	idnode int NOT NULL COMMENT 'Row identifier',
 	alldata varchar(4096) COMMENT 'Row data',
@@ -30,7 +35,7 @@ CREATE TABLE treemanager.revision (
 GRANT SELECT, INSERT ON treemanager.revision TO "www"@"localhost";
 
 /* Create first user */
-INSERT INTO user values(1, 'norbert');
+INSERT INTO user values(1, 'norbert', 'Norbert Volf');
 
 /* Create sequence table */
 CREATE TABLE node_sequence (id INT NOT NULL);

@@ -161,7 +161,7 @@ sub errors {
 				{
 					label => $self->definition->{columns}->{$key}->{label} // $key,
 					error => $self->definition->{columns}->{$key}->{error}
-					  // ( $self->c->__('Invalid') . $self->definition->{columns}->{$key}->{label} . $self->c->__('field') ),
+					  // sprintf( $self->c->__('Invalid %s field'), $self->definition->{columns}->{$key}->{label} // $key ),
 					key => $key,
 				}
 			);
@@ -200,7 +200,7 @@ sub validate {
 				elsif ( $columns->{$key}->{type} == $self->c->DB_NUMERIC && defined( $params->{$key} ) ) {
 					$self->$key( $params->{$key} + 0 );
 				}
-				else {
+				elsif ( !defined( $params->{$key} ) ) {
 					$self->$key( $params->{$key} );
 				}
 			}
@@ -285,7 +285,7 @@ sub AUTOLOAD {
 			if (
 				$numofprm
 				&& (   ( defined( $self->{"_$method"} ) && !defined($param) )
-					|| ( !defined( $self->{"_$method"} ) && defined($param) )
+					|| !defined( $self->{"_$method"} )
 					|| ( defined( $self->{"_$method"} ) && defined($param) && !( $self->{"_$method"} eq $param ) ) )
 			  )
 			{
