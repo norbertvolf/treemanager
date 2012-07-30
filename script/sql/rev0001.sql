@@ -13,7 +13,7 @@ CREATE TABLE treemanager.node (
 	statestamp TIMESTAMP not null COMMENT 'Modified at',
 	PRIMARY KEY (idnode)
 );
-GRANT SELECT ON treemanager.node TO "www"@"localhost";
+GRANT SELECT, NODE ON treemanager.node TO "www"@"localhost";
 
 /* Create user table for authorization */
 CREATE TABLE treemanager.user (
@@ -40,3 +40,4 @@ INSERT INTO user values(1, 'norbert', 'Norbert Volf');
 /* Create sequence table */
 CREATE TABLE node_sequence (id INT NOT NULL);
 INSERT INTO node_sequence VALUES (0);
+GRANT SELECT, UPDATE ON treemanager.node_sequence TO "www"@"localhost";
