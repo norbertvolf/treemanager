@@ -32,12 +32,14 @@ sub new {
 sub validate {
 	my $self = shift;
 	my $params = shift;
+	if ( $params->{idparent} && $params->{idparent} =~ /NONE/ ) {
+		$params->{idparent} = undef;
+	}
 	my $ok = $self->SUPER::validate($params);
-	if ( $ok ) {
+	if ( $ok && defined( $self->idparent ) ) {
 		my $obj = TreeManager::Model::Node::List->new($self->c);
 		$obj->validate( { filters => { idnode => { value => $self->idparent }, }, } );
 		$obj->load;
-		$obj->debug;
 		if ( ! scalar(@{$obj->list}) ) {
 			my $columns = $self->definition->{columns}->{idparent}->{invalid} = 1;
 			$ok = undef;

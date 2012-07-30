@@ -17,6 +17,7 @@ sub new {
 					lval,
 					rval
 					FROM node
+					WHERE ( state & 4 ) = 0
 					ORDER BY idnode
 			),
 			columns => { idnode => { type      => $c->DB_INT,          rule   => 1, }, },

@@ -4,7 +4,7 @@
 TreeManager.Tree = function(block) {
 	this.jQuery = jQuery;
 	this.block = this.jQuery('#treemanager-container');
-	this.find('.tree-manager-button-add').click(this.add.bind(this));
+	this.find('.tree-manager-button-add').click(this.clickAdd.bind(this));
 	this.requesttree();
 };
 // }}}
@@ -52,7 +52,15 @@ TreeManager.Tree.prototype.filltree = function( result ) {
 				var td = this.find('.treemanager-tree-column-template').clone().removeClass('treemanager-tree-column-template display-no');
 				tr.append(td);
 				if ( row[j].data.title ) {
-					td.html( ( row[j].data.attr.idparent || 'NONE') + '&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;' + row[j].data.attr.idnode );
+					var content = this.jQuery("<span></span>"); 
+					content.html( ( row[j].data.attr.idparent || 'NONE') + '&nbsp;<img src="/images/ico-arrow-right.gif">&nbsp;' + row[j].data.attr.idnode );
+					if ( row[j].children.length == 0 ) {
+						td.find('.treemanager-tree-button-remove').attr('idnode', row[j].data.attr.idnode);
+						td.find('.treemanager-tree-button-remove').click(this.clickRemove.bind(this));
+					} else {
+						TreeManager.hide(td.find('.treemanager-tree-button-remove'));
+					}
+					td.prepend(content);
 				} else {
 					td.html( '&nbsp;' );
 				}
@@ -84,6 +92,21 @@ TreeManager.Tree.prototype.requestadd = function() {
 	}
 }
 //}}} 
+//{{{ requestremove 
+//Send request to remove node 
+TreeManager.Tree.prototype.requestremove = function( idnode ) {
+	TreeManager.publish('Message.Close');
+	var error = function error(state) { TreeManager.publish('Message.Err.HTTP', [ state ]); };
+	TreeManager.request({
+			url: '/node/',
+			type: 'DELETE',
+			data: TreeManager.stringify({ "idnode" : idnode }),
+		},
+		this.filltree.bind(this),
+		error.bind(this)
+	);
+}
+//}}} 
 /* {{{ requesttree */
 /* Send request to load tree */
 TreeManager.Tree.prototype.requesttree = function( value ) {
@@ -104,10 +127,17 @@ TreeManager.Tree.prototype.requesttree = function( value ) {
 /* }}} */
 
 //handlers
-// {{{ handlers
+// {{{ add
 // Send request to save node
-TreeManager.Tree.prototype.add = function() {
+TreeManager.Tree.prototype.clickAdd = function() {
 	this.requestadd();
+	return false;
+};
+//}}}
+// {{{ clickRemove
+// Send request to save node
+TreeManager.Tree.prototype.clickRemove = function( ev ) {
+	this.requestremove(this.jQuery(ev.target).attr('idnode'));
 	return false;
 };
 //}}}

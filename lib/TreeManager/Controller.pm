@@ -41,9 +41,6 @@ sub node {
 
 		#Save data to database
 		my $json = $self->req->json;
-		if ( $json->{idparent} && $json->{idparent} =~ /NONE/ ) {
-			$json->{idparent} = undef;
-		}
 		my $node = TreeManager::Model::Node->new($self);
 		if ( $node->validate($json) ) {
 			$node->save;
@@ -63,6 +60,24 @@ sub node {
 				data    => $node->hash,
 				message => $self->__('Node data has not been add.'),
 				errors  => $node->errors,
+			};
+		}
+		return ( $self->render( json => $json ) );
+	} elsif ( $self->req->method eq 'DELETE' && ref( $self->req->json ) eq 'HASH' ) {
+		#Save data to database
+		my $json = $self->req->json;
+		my $node = TreeManager::Model::Node->new($self);
+		if ( $node->validate($json) ) {
+			$node->remove;
+			my $inst = TreeManager::Model::Node::List->new($self);
+			$inst->load;
+			my $hash = $inst->hash;
+			$hash->{tree} = $inst->tree;
+			$hash->{table} = $inst->table;
+			$hash->{headerspan} = $inst->headerspan;
+			$json = {
+				data    => $hash,
+				message => $self->__('Node has been removed successfully.')
 			};
 		}
 		return ( $self->render( json => $json ) );

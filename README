@@ -3,17 +3,19 @@
 
 This application is just test app.
 
-You need mysql (see your distribution how to install MySQL.
+For debian
 
-Debian distro:
+You can install mojolicious and libvalidation-class-perl debian packages 
+from http://www.volf.eu/debian/pool/main/libmojolicious-perl_3.11-1_all.deb)
+and http://www.volf.eu/debian/pool/main/libvalidation-class-perl_5.83-1_all.deb
 
-You can install debian package from http://www.volf.eu/debian/pool/main/libmojolicious-perl_3.11-1_all.deb)
+and other packages are from debian stable
 
-You can install other packages from debian also
+aptitude install libdbi-perl libdbd-pg-perl libdbd-mysql-perl libintl-perl libdatetime-locale-perl libdatetime-perl libdatetime-timezone-perl mysql-server-5.1
 
- libdbi-perl, libdbd-pg-perl, libdbd-mysql-perl, libintl-perl, libmojolicious-perl, libdatetime-locale-perl, libdatetime-perl, libdatetime-timezone-perl, libvalidation-class-perl
+Non debian
 
-Non debian way:
+To install mysql see your distribution documentation.
 
 To install mojolicious from CPAN see http://mojolicio.us/ documentation
 
@@ -35,7 +37,11 @@ You can install modules from CPAN
   Download sources
 -------------------------
 
-git://github.com/norbertvolf/treemanager.git
+git clone git://github.com/norbertvolf/treemanager.git
+
+or download zip from 
+
+https://github.com/norbertvolf/treemanager/zipball/master
 
 
   Create database

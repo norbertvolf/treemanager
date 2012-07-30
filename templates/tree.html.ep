@@ -43,7 +43,8 @@
 						<td class="treemanager-tree-header-nodes" colspan="3"><%= __('Tree nodes') %></td>
 					</tr>
 					<tr class="display-no treemanager-tree-row-template">
-						<td class="display-no treemanager-tree-column-template"></td>
+						<td class="display-no treemanager-tree-column-template"><span class="treemanager-tree-button-remove ico-tree ico-tree-remove">Remove</span></td>
+						
 					</tr>
 				</thead>
 				<tbody class="treemanager-tree-body">
